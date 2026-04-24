@@ -46,11 +46,7 @@ cd Projet-Admistration-Systeme
 sudo apt update
 sudo apt install apache2 -y
 
-3. Copier le site dans apache
-
-sudo cp -r html/* /var/www/html/
-
-4. Démarrer Apache
+3. Démarrer Apache
 
 sudo systemctl start apache2
 sudo systemctl enable apache2
@@ -61,7 +57,6 @@ Ouvrir dans le navigateur:
 http://monsite.local/
 
 # Configuration du serveur(VirtualHost)
-
 Créer un fichier:
 sudo nano /etc/apache2/sites-available/monsite.conf
 Activer:
@@ -70,7 +65,7 @@ sudo systemctl reload apache2
 
 # Sécurisation du serveur(UFW)
 
-Autoriser Apahe:
+Autoriser Apache:
 
 sudo ufw allow 'Apache'
 
