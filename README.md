@@ -8,10 +8,10 @@
 statique(HTML/CSS), tout en assurant la configuration réseau et la sécurisation du serveur.
 
 #Membres du groupe
-- Etudiant 1 : Installation d'apache
-- Etudiant 2 : Développement du site web(HTML/CSS)
-- Etudiant 3 : Configuration du serveur (VirtualHost, réseau)
-- Etudiant 4 : Sécurisation(UFW) + Documentation
+- Nana idrissa Aicha : Installation d'apache
+- Meryem chalh :Configuration du serveur (VirtualHost, réseau)
+- Noura ajarra: Développement du site web(HTML/CSS)
+- Khadija benchouafa: Sécurisation(UFW) + Documentation
 
 #Technologies utilisées
 
