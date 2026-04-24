@@ -58,7 +58,7 @@ sudo systemctl enable apache2
 # Accès au site 
 
 Ouvrir dans le navigateur:
-http://localhost
+http://monsite.local/
 
 # Configuration du serveur(VirtualHost)
 
